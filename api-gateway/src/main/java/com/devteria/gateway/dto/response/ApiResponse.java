@@ -1,4 +1,4 @@
-package com.devteria.gateway.dto;
+package com.devteria.gateway.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AccessLevel;
