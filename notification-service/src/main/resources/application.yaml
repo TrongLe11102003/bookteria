@@ -15,3 +15,5 @@ spring:
       auto-offset-reset: earliest
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
+myapp:
+  api-key: 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

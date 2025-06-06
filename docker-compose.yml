@@ -1,8 +1,8 @@
 version: "3"
-name: bookteria
+#name: bookteria
 services:
   kafka:
-    image: 'bitnami/kafka:3.7.0'
+    image: 'bitnami/kafka:4.0.0'
     container_name: kafka
     hostname: kafka
     ports:
