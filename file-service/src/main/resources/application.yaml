@@ -8,3 +8,7 @@ spring:
   data:
     mongodb:
       uri: mongodb://root:root@localhost:27017/file-service?authSource=admin
+app:
+  file:
+    storage-dir: /Users/trongle/Documents/Tài liệu/upload
+    download-prefix: http://localhost:888/api/v1/file/media/
