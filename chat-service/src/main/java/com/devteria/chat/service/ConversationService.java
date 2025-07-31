@@ -100,8 +100,6 @@ public class ConversationService {
         StringJoiner stringJoiner = new StringJoiner("_");
         ids.forEach(stringJoiner::add);
 
-        // SHA 256
-
         return stringJoiner.toString();
     }
 
